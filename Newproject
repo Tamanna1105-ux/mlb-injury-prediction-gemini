@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injury & Recovery Prediction - MLB Hackathon</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text */
+        }
+
+        header {
+            background-color: #0047ab; /* MLB blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+          font-size: 2.5em; /* Larger title */
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .container {
+          max-width: 960px; /* Set a maximum width for the content */
+          margin: 0 auto; /* Center the content */
+        }
+
+        a {
+            color: #0047ab; /* MLB blue for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            max-width: 100%; /* Make images responsive */
+            height: auto;
+            display: block; /* Prevent image from affecting layout */
+            margin: 20px auto; /* Center the image */
+        }
+
+        footer {
+            background-color: #333; /* Darker gray footer */
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed; /* Fixed to the bottom */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+          <h1>Injury & Recovery Prediction</h1>
+          <h2>MLB Hackathon - Building with Gemini Models</h2>
+        </div>
+    </header>
+
+    <div class="container">
+        <section>
+            <h3>Project Overview</h3>
+            <p>This project aims to predict player injuries and estimate recovery times using machine learning models, leveraging the power of Gemini and trained on relevant MLB datasets.  Accurate predictions can help teams optimize player workloads, prevent injuries, and improve player development strategies.</p>
+            <img src="baseball_image.jpg" alt="Baseball Field">  </p> <p> Replace this image with a relevant one. </p>
+        </section>
+
+        <section>
+            <h3>GitHub Repository</h3>
+            <p>Explore the code, data, and analysis in our GitHub repository:</p>
+            <a href="YOUR_GITHUB_LINK" target="_blank">View on GitHub</a>  </p> <p> Replace with your actual link. </p>
+        </section>
+
+        <section>
+          <h3>Technologies Used</h3>
+          <ul>
+            <li>Gemini Models (Specify which ones if possible)</li>
+            <li>Python</li>
+            <li>TensorFlow/PyTorch/Scikit-learn (or other ML libraries)</li>
+            <li>Google Cloud Platform (GCP)</li>
+            <li>(Add other technologies here)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Team Members</h3>
+          <ul>
+            <li>Your Name</li>
+            <li>(Add other team members if any)</li>
+          </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Your Name(s)
+    </footer>
+
+</body>
+</html>
